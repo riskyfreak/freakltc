@@ -116,7 +116,3 @@ for ulangpertama in range(int(num)):
                 client(GetBotCallbackAnswerRequest(channel_username,channel_id,data=message_history.messages[0].reply_markup.rows[1].buttons[1].data))
                 sys.stdout.write('\r                                                     \r')
                 print (red+'\rBerhasil Skip Captcha\n')
-
-    except:
-        print(red+"ERROr Detected")
-        sys.exit()
